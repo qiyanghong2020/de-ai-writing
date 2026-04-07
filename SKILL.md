@@ -1,11 +1,11 @@
 ---
 name: de-ai-chinese-writing
-description: Rewrite Chinese prose so it reads more naturally and less like AI-generated text while preserving facts, evidence, and logic. Use when the user asks to 去 AI 腔, make writing more human, more自然, more口语化但不油滑, less像教科书, less像模板, or when a draft feels over-structured, repetitive, connector-heavy, or full of vague polished wording.
+description: Rewrite Chinese prose so it reads more naturally and less like AI-generated text while preserving facts, evidence, logic, and domain meaning. Use when the user asks to 去 AI 腔, make writing more human, more自然, more口语化但不油滑, less像教科书, less像模板, or when any Chinese draft feels over-structured, repetitive, connector-heavy, vague, or machine-smoothed. Works across articles, reports, PRDs, product copy, README files, presentations, newsletters, and other Chinese writing tasks.
 ---
 
 # De-AI Chinese Writing
 
-Use this skill to turn stiff, templated, or machine-smoothed Chinese into natural human prose without flattening the evidence.
+Use this skill to turn stiff, templated, or machine-smoothed Chinese into natural human prose without flattening the substance.
 
 Read `references/markers.md` when you need concrete examples of AI-like phrasing patterns and preferred rewrites.
 
@@ -16,12 +16,12 @@ Read `references/markers.md` when you need concrete examples of AI-like phrasing
 Before rewriting, lock these parts in place:
 
 - factual claim
-- study design or source type
+- source type or document role
 - sample size or key numbers
 - effect direction
-- limitation or evidence boundary
+- limitation, scope, or evidence boundary
 
-Do not trade away evidence for a more casual tone.
+Do not trade away domain meaning for a more casual tone.
 
 ### 2. Rewrite the whole local block, not just the quoted sentence
 
@@ -103,11 +103,16 @@ Before finishing, read each paragraph and ask:
 - Could this sentence fit too many unrelated articles?
 - Is the sentence describing the study, or describing my own summary of the study?
 
-If the wording is generic enough to fit many papers, rewrite it into the paper's own subject, action, and result.
+If the wording is generic enough to fit many unrelated drafts, rewrite it into that document's own subject, action, and result.
 
 ## Default Rewrite Targets
 
 - public-facing Chinese articles
+- reports and memos
+- PRDs and strategy drafts
+- README files and documentation
+- newsletter and social copy
+- speech notes and presentations
 - WeChat long-form prose
 - literature-sharing drafts
 - health and medicine explainers
