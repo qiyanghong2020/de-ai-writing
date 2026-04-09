@@ -8,11 +8,11 @@
 
 ## Local organization
 
-This local skill is now arranged as an upstream-based working tree:
+This local skill now uses a single `main` branch:
 
-- tracked upstream files come from the GitHub repository
-- local changes stay as normal git modifications on top of upstream
-- local-only additions stay as untracked or newly added files until intentionally committed
+- `origin/main` tracks the upstream repository
+- local `main` is the active integrated version
+- local enhancements are committed on top of upstream instead of being kept on a separate branch
 
 ## Local additions kept on top of upstream
 
@@ -28,15 +28,15 @@ To review upstream changes later:
 
 ```bash
 git -C /home/hongqy/.codex/skills/de-ai-chinese-writing fetch origin
-git -C /home/hongqy/.codex/skills/de-ai-chinese-writing diff --stat HEAD origin/main
-git -C /home/hongqy/.codex/skills/de-ai-chinese-writing diff HEAD origin/main
+git -C /home/hongqy/.codex/skills/de-ai-chinese-writing diff --stat origin/main..main
+git -C /home/hongqy/.codex/skills/de-ai-chinese-writing diff origin/main..main
 ```
 
 To see only local edits on top of upstream:
 
 ```bash
 git -C /home/hongqy/.codex/skills/de-ai-chinese-writing status --short
-git -C /home/hongqy/.codex/skills/de-ai-chinese-writing diff
+git -C /home/hongqy/.codex/skills/de-ai-chinese-writing log --oneline origin/main..main
 ```
 
 ## Reminder

@@ -43,10 +43,13 @@ Prioritize these fixes:
 
 - replace vague “slippery” words with concrete subjects, actions, and outcomes
 - replace translationese abstract nouns and source-language scaffolding with natural Chinese when a direct expression exists
+- replace contrast framing such as `不是……而是……`, `并非……而是……`, `不只是……而是……`, and `不靠……而是……` with direct statements whenever precision does not require the contrast
 - break over-smoothed rhythm when sentence length, sentence structure, or paragraph movement feels too even
 - trim over-explained logic when the paragraph insists on spelling out every bridge instead of carrying one decisive point
 - cut low-information connective openers
+- remove rhetorical booster words and filler emphasis such as `真正`, `真正的`, `实际上`, `最值得`, or similar words when they are only propping up tone
 - remove commentary about the writing itself
+- remove reader-stage scaffolding and teacher-like prompts
 - collapse textbook-style explanation scaffolding into direct content statements
 - vary repeated sentence templates and paragraph openings
 - clean up punctuation habits that make Chinese look machine-smoothed
@@ -60,6 +63,7 @@ Bad pattern:
 
 Preferred pattern:
 
+- say it directly before you contrast it
 - say what happened
 - say what changed
 - say what the number means
@@ -68,11 +72,12 @@ Preferred pattern:
 Recommended pass order:
 
 1. remove commentary about the writing itself
-2. replace slippery words and translationese abstract nouns
-3. simplify nominalized phrasing and over-standardized phrase bundles
-4. break over-even rhythm and trim over-complete explanation
-5. reduce repeated connectives and repeated “objective” openers
-6. add a little human texture only if the paragraph still feels too flat
+2. replace contrast framing with direct statements when the contrast is not essential
+3. replace slippery words and translationese abstract nouns
+4. simplify nominalized phrasing and over-standardized phrase bundles
+5. break over-even rhythm and trim over-complete explanation
+6. reduce repeated connectives and repeated “objective” openers
+7. add a little human texture only if the paragraph still feels too flat
 
 Pay special attention to these common AI-polish symptoms:
 
@@ -80,8 +85,77 @@ Pay special attention to these common AI-polish symptoms:
 - every judgment is wrapped up too fully, leaving no natural white space
 - abstract phrase bundles appear in clusters and start to feel like concept blocks rather than lived Chinese
 - the paragraph logic falls into a standard review-style push every time, such as neat two-step or two-paragraph progression that feels preassembled
+- contrast-first sentences start becoming the paragraph's default skeleton
 
-### 3.5. Check whether the wording fits the discourse community
+### 3.5. Prefer direct, flat, respectful statements
+
+When a sentence can be said directly, say it directly.
+
+Prefer:
+
+- direct declarative sentences
+- concrete subjects and concrete verbs
+- calm, flat explanation instead of correction-first rhetoric
+- content-telling narrative instead of commentator voice
+
+Avoid by default:
+
+- `不是……而是……`
+- `并非……而是……`
+- `不只是……而是……`
+- `不靠……而是……`
+- `真正`
+- `真正的`
+- `实际上`
+- `最需要盯住的是`
+- `普通人最该记住的是`
+- `读这篇文章时`
+- `放在一起看`
+- `再往下看`
+
+If contrast is genuinely needed to correct a likely misunderstanding, keep it once and make the correction concrete. Do not let contrast framing become the paragraph's default skeleton.
+
+### 3.6. Remove commentator and teacher voice
+
+High-risk signs:
+
+- the sentence comments on how the text is written instead of what the source says
+- the writer stands beside the material and tells the reader what to notice
+- the writer ranks what the reader “should” remember
+- the writer sounds like they are leading a class, not sharing content
+
+Prefer:
+
+- `图 2 里，病例组的……更高`
+- `这一步只回答了……`
+- `后面没有看到……`
+
+Avoid:
+
+- `这一点很关键`
+- `最值得记住的是`
+- `可以这样理解`
+- `更像是在提醒我们`
+- `先看……再看……`
+- `这张图的作用很朴素`
+
+### 3.7. Keep the reader relationship level
+
+In public-facing writing, do not lower the reader's status just to sound explanatory.
+
+Avoid:
+
+- labeling the reader as `普通人`, `普通读者`, or similar identity-setting phrases
+- management-style phrasing such as `别往后拖`, `不能轻轻放过`, `最该记住的是`
+- over-helpful reader prompts that sound like seminar guidance rather than natural prose
+
+Prefer:
+
+- direct description of the result, risk, choice, or next step
+- flat, respectful action wording
+- situation-based wording such as `就医的人`, `关心这件事的人`, or no label at all
+
+### 3.8. Check whether the wording fits the discourse community
 
 Some words are grammatically smooth but still sound wrong for the document type.
 
@@ -124,7 +198,7 @@ When working on a thesis or medical paper:
 - when the prose starts “managing the argument” with words like `框架` / `体系` / `路径` / `主线` / `支撑` / `结果整合`, check whether the sentence is describing the writing rather than the study
 - if a sentence can be rewritten by naming the object, action, comparison, or evidence directly, prefer that over abstract organizing nouns
 
-### 3.6. Check for transition-word overload and repeated sentence skeletons
+### 3.9. Check for transition-word overload and repeated sentence skeletons
 
 AI-flavored Chinese often does not fail at vocabulary first. It often fails at paragraph motion.
 
@@ -165,7 +239,7 @@ Highest-risk zones:
 - summary paragraphs at the end of results sections
 - discussion and conclusion
 
-### 3.7. Check for lexical flatness, not just wrong words
+### 3.10. Check for lexical flatness, not just wrong words
 
 AI-like Chinese often does not sound bad word-by-word. It sounds as if every sentence picked the safest possible word.
 
@@ -184,7 +258,7 @@ Preferred response:
 - do not chase novelty for its own sake; avoid thesaurus-style synonym churn
 - when one precise word carries the paragraph best, keep it; lexical diversity should come from function, not decoration
 
-### 3.8. Add authorial stance when the genre allows it
+### 3.11. Add authorial stance when the genre allows it
 
 Human writing often has not only content, but selective emphasis. In formal Chinese prose, this does not mean anecdotes.
 
@@ -208,7 +282,7 @@ Avoid:
 - diary-like first-person narration
 - strong personal performance where the genre requires restraint
 
-### 3.9. For doctoral theses, prefer real research trace over generic completeness
+### 3.12. For doctoral theses, prefer real research trace over generic completeness
 
 Human doctoral writing usually does not win by sounding more ornate. It wins by leaving signs that the author actually did the work.
 
@@ -239,10 +313,14 @@ Default rhythm:
 - short to medium paragraphs
 - one information cluster per paragraph
 - direct verbs over abstract nouns
+- direct statements before summary comments
 - natural spoken cadence without slang or performance
 - let sentence length and sentence structure vary naturally; do not let a whole paragraph glide forward in the same rhythm
 - when one point clearly matters more, let that point carry the sentence instead of polishing every item to equal weight
 - if the draft feels too neutral or over-objective, allow a little lived voice or mild stance when the genre supports it
+- optimize for natural reading rhythm: if it reads smoothly out loud, the sentence length is probably fine
+- watch for “uniformly polished” rhythm: if every sentence feels equally complete and equally smooth, the paragraph probably needs one shorter, sharper, or more selective sentence
+- watch for “standard review progression”: if the body keeps advancing in the same tidy two-step pattern, break the sequence with a more direct entry, a sharper sentence, or a different paragraph job
 - syntax can stay correct throughout, but it should not feel as if every sentence was finished by the same polishing template
 
 Prefer:
@@ -254,6 +332,8 @@ Prefer:
 - `讨论了`
 - `优化了`
 - `分析了`
+- `需要尽快处理`
+- `建议尽快接上`
 
 Avoid:
 
@@ -263,6 +343,10 @@ Avoid:
 - `更吃力的部分`
 - a paragraph where every sentence has nearly the same length and the same “judgment -> explanation -> boundary” skeleton
 - lists where every item is equally smooth, equally complete, and equally weighted when the writer clearly cares more about one of them
+- “concept-block” phrasing where several abstract bundles stack up in a row and the paragraph starts sounding assembled rather than written
+- paragraph logic that feels pre-slotted into the same two-part review movement again and again
+- sentences that exist mainly to tell the reader how to read the material
+- sentences that lean on `不是……而是……` or `真正 / 实际上` to manufacture force
 
 ### 4.5. Clean up punctuation and notation habits
 
@@ -309,6 +393,68 @@ Before finishing, read each paragraph and ask:
 - Can I see the problem boundary, research friction, and result hierarchy?
 
 If the wording is generic enough to fit many unrelated drafts, rewrite it into that document's own subject, action, and result.
+
+## Selective Human Signals
+
+These are allowed tools, not default mannerisms.
+
+### A. Light first-person voice can help
+
+When the draft benefits from a real speaker, you may add a light first-person stance such as:
+
+- `我更在意的是……`
+- `我会这样理解……`
+- `我更愿意把它看成……`
+
+Use this when:
+
+- the document is a commentary, newsletter, speech note, strategy memo, or public explainer that benefits from a visible speaker
+- the first-person phrase clarifies emphasis, tradeoff, or judgment
+
+Do not use first person to blur attribution. Evidence still belongs to the study, source, or document itself.
+
+### B. Direct verbs usually sound more human
+
+When a sentence绕一圈才落到动作，直接压平：
+
+- `进行了讨论` -> `讨论了`
+- `实现了优化` -> `优化了`
+- `完成了分析` -> `分析了`
+
+### C. A little oral texture is okay
+
+If the copy sounds too flat, one small口语 marker can help:
+
+- `其实`
+- `说白了`
+- `对了`
+- `这事儿`
+
+Use them sparingly and only when they match the speaker and the document.
+
+### D. Mild attitude can make the speaker feel real
+
+A little attitude can help when the sentence otherwise sounds too polished or too careful:
+
+- `挺重要`
+- `说实话`
+- `有点可惜`
+
+Keep it light. The goal is a real person with a point of view, not a performer doing attitude.
+
+### E. Straight talk beats expert posturing
+
+Prefer:
+
+- direct statements
+- clear subjects and verbs
+- a calm human stance
+
+Avoid:
+
+- sounding like a lecturer
+- sounding like a detached “expert voice”
+- sounding like the text is trying to manage or impress the reader
 
 ## Mode Calibration
 
@@ -381,6 +527,7 @@ Keep restrained:
 - Do not solve AI tone by making the copy loose, cute, or exaggerated.
 - Do not stop after replacing one bad phrase if the nearby prose still sounds templated.
 - Do not let transition words carry logic that the sentence itself should carry.
+- Do not default to `不是……而是……`, `并非……而是……`, `不只是……而是……`, or `不靠……而是……` as a sentence pattern.
 - Do not keep a smooth but genre-misaligned word just because it sounds polished; prefer wording that people in that field actually use.
 - Do not fake personal voice with anecdotes or memoir-like insertions in formal prose.
 - Do not force lexical diversity by swapping in flashy synonyms that weaken precision.
