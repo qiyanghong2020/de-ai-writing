@@ -2,8 +2,8 @@
 
 ## Source
 
-- upstream repo: `https://github.com/qiyanghong2020/de-ai-chinese-writing.git`
-- local active skill path: `/home/hongqy/.codex/skills/de-ai-chinese-writing`
+- upstream repo: `https://github.com/qiyanghong2020/de-ai-writing.git`
+- local active skill path: `/home/hongqy/.codex/skills/de-ai-writing`
 - current branch: `main`
 
 ## Local organization
@@ -16,9 +16,12 @@ This local skill now uses a single `main` branch:
 
 ## Local additions kept on top of upstream
 
+- general `de-ai-writing` entry point for both Chinese and English
+- language-lane routing through `references/chinese.md` and `references/english.md`
 - stronger academic / thesis / medical guidance
 - explicit checks for transition-word overload such as `此外` / `然而` / `总之`
 - explicit checks for overly uniform grammar and sentence landing
+- English AI-tone guidance for lexical overrepresentation, stock transitions, predictable rhythm, generic claims, and voice flattening
 - extra quick references for phrase-level rewrites and risk words
 - local reference file: `references/thesis-medical.md`
 - long-document execution guidance in `references/execution-patterns.md`
@@ -47,16 +50,16 @@ What was deliberately not borrowed:
 To review upstream changes later:
 
 ```bash
-git -C /home/hongqy/.codex/skills/de-ai-chinese-writing fetch origin
-git -C /home/hongqy/.codex/skills/de-ai-chinese-writing diff --stat origin/main..main
-git -C /home/hongqy/.codex/skills/de-ai-chinese-writing diff origin/main..main
+git -C /home/hongqy/.codex/skills/de-ai-writing fetch origin
+git -C /home/hongqy/.codex/skills/de-ai-writing diff --stat origin/main..main
+git -C /home/hongqy/.codex/skills/de-ai-writing diff origin/main..main
 ```
 
 To see only local edits on top of upstream:
 
 ```bash
-git -C /home/hongqy/.codex/skills/de-ai-chinese-writing status --short
-git -C /home/hongqy/.codex/skills/de-ai-chinese-writing log --oneline origin/main..main
+git -C /home/hongqy/.codex/skills/de-ai-writing status --short
+git -C /home/hongqy/.codex/skills/de-ai-writing log --oneline origin/main..main
 ```
 
 ## Reminder
