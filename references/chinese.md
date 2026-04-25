@@ -54,6 +54,38 @@ Avoid by default:
 
 If contrast is genuinely needed to correct a likely misunderstanding, keep it once and make the correction concrete. Do not let contrast framing become the paragraph's default skeleton.
 
+## Clean up punctuation habits
+
+These edits often help when Chinese prose feels machine-smoothed:
+
+- prefer Chinese quotation marks `“ ”` over English quotes unless the source string must stay exact
+- avoid using `/` as a lazy connector in body copy when `和` / `或` / `到` / `分别` / `以及` would read more naturally
+- avoid using `->` to stand in for logic, sequence, or causation; write the relationship out in Chinese
+- avoid overusing the em dash `——` as an all-purpose connector. AI-flavored Chinese tends to stack `——` everywhere it needs to explain, qualify, elaborate, or summarize, which makes the prose feel over-managed and uniformly paced. Keep `——` for cases where a real aside, correction, or deliberate pause is needed; for most other uses switch back to plain punctuation or rewrite into a clean sentence.
+- keep punctuation quiet and natural; do not rely on symbols to simulate structure
+
+High-risk em-dash patterns and preferred rewrites:
+
+- `A——B` used to rename or define → use `，即 B` / `，也就是 B` / `：B` / make it a new sentence, or remove the mark entirely when B is a short apposition that reads fine with a comma
+- `A——因为 B` / `A——它 B` used to extend an explanation → split into two sentences; let the period do the work
+- `A——B——C` stacking multiple dashes in one sentence → rewrite into two or three shorter sentences, or convert inner segments to relative clauses
+- `A 是……——它做了 X、Y、Z` used to append a list → end the first clause with `。`, then start a new sentence (`它做了 X、Y、Z。`)
+- `句尾 ——最后/结果/也就是……` used for punchline → delete the dash and let the prior sentence land; start a fresh sentence if the follow-up is substantive
+- repeated `——` across adjacent paragraphs even when each single use is fine → vary paragraph openings and closings so the mark does not become the paragraph's rhythm signature
+
+Diagnostic threshold:
+
+- if a fragment longer than ~300 Chinese characters contains more than about 4 `——` marks, treat this as overuse and do a sweep
+- if two consecutive sentences both use `——`, rewrite at least one of them with plain punctuation
+- em dash overuse usually travels with other AI-tone patterns (contrast framing, booster words, commentator voice). Fixing the dash often opens space to fix those too.
+
+Use judgment:
+
+- keep `/` when it is genuinely the clearest form, such as URLs, file paths, units, ratios, trial labels, or established notation
+- keep `——` when the aside is genuinely parenthetical, the pause is deliberate, or the source text itself uses it; the rule is against reflexive stacking, not against ever using the mark
+- keep exact original punctuation inside titles, code, formulas, or literal interface strings when needed
+- typography cleanup should support readability, not become a separate style performance
+
 ## Watch paragraph motion
 
 Chinese AI flavor often comes from paragraph motion, not only vocabulary.
