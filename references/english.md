@@ -161,6 +161,52 @@ Avoid:
 - vague praise words such as `commendable` or `groundbreaking` unless quoted or justified
 - polishing away the author's actual analytic stance
 
+#### Scientific and medical table language
+
+For biomedical, translational, oncology, or molecular-biology manuscripts, table text can sound AI-generated even when the grammar is correct. The main risk is not stock adjectives; it is an internal framework label that does not match the field's usual table language.
+
+Before rewriting a biomedical table, ask:
+
+- Is this a column heading, a category label, an evidence level, or a concrete assay/readout?
+- Is the term already defined in the manuscript, and is it a standard term in the field?
+- Would the replacement change the evidence strength or clinical claim?
+- Will the replacement make the table too long or disturb protected values, units, or statistics?
+
+High-risk signs:
+
+- column heads such as `Framework role`, `Evidence anchor`, `Decisive test`, or `Why it matters`
+- self-made category labels such as `low-X suppressive module`, `adaptive protein-state module`, `core immune-microenvironmental module`, or `boundary-setting only`
+- compressed clinical phrases such as `clinical direction`, `validation-stage`, `restoration selection`, `immune-safety checks`, or `spatial/cell phenotyping`
+- slash-heavy assay wording such as `IHC/MS`, `RNA/protein`, `methylation/expression`, or `prognosis/restoration` when the relation should be explicit
+- gene/protein mixing, for example using a gene symbol where the readout is a protein, aggregate, conformation, or subcellular localization
+
+Preferred moves:
+
+- replace internal labels with evidence-table language: `Proposed interpretation`, `Evidence base`, `Supporting evidence`, `Key caveat`, `Validation focus`, `Key validation test`, `Rationale`
+- use biomarker language only at the evidence level the study supports: `clinical validation`, `clinical utility`, `predictive utility`, `prognostic evidence`, `candidate biomarker`, `treatment-by-biomarker interaction`
+- for early association or mechanistic work, prefer `clinical relevance`, `potential clinical implication`, or `translational relevance` over `clinical utility` or `clinical actionability`
+- replace `module` with `pattern`, `phenotype`, `evidence pattern`, or `context` unless the text truly describes a standard module, such as a WGCNA module, gene module, pathway module, network module, co-expression module, immune-cell module, spatial module, or module score
+- name the restoration target: `target-gene re-expression`, `target rescue`, `forced expression of the target gene/protein`, or `pathway activation/reactivation`
+- separate levels of measurement: gene symbols for DNA-level alteration, methylation, and gene/RNA expression; protein names, approved protein symbols, or marker names for protein expression, abundance, aggregation, conformation, proteoforms, PTMs, or localization
+- reduce slash compression with `and`, `with`, `or`, semicolons, or short noun phrases when the relation is unclear; keep compact slash forms when the table is space-constrained and the meaning is already defined
+
+Useful replacements:
+
+| Risky table wording | More field-typical option |
+| --- | --- |
+| `Framework role` | `Proposed interpretation` / `Biological interpretation` |
+| `Evidence anchor` | `Evidence base` / `Supporting evidence` |
+| `Decisive test` | `Key validation test` / `Critical validation test` |
+| `Why it matters` | `Rationale` / `Translational rationale` |
+| `clinical direction` | `clinical relevance` / `clinical guidance`; use `clinical actionability` only when supported by decision-level evidence |
+| `predictive use` | `predictive utility` when comparator or treatment-interaction evidence exists; otherwise `predictive relevance` / `candidate predictive marker` |
+| `validation-stage` | as a heading: `Validation status` / `Stage of validation`; as a cell: `Candidate biomarker; clinical validation pending` / `Requires validation` |
+| `localization-shifted protein` | `altered subcellular localization of the protein` |
+| `immune-safety checks` | `immune safety assessments` |
+| `restoration selection` | `restoration-relevant biology` / `candidate restoration contexts` |
+
+Do not replace these mechanically. If a term is explicitly defined in the manuscript and is defensible for the field, keep it; otherwise prefer the wording a reviewer would expect in an evidence table. Preserve table structure, units, statistics, P values, confidence intervals, HR/OR/RR labels, gene-symbol capitalization, protein names, and italic/non-italic conventions unless the user explicitly asks to fix them.
+
 ### Business, product, and technical writing
 
 Prioritize:

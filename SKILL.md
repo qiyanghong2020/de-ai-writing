@@ -20,6 +20,8 @@ For Chinese work, use `references/chinese.md` first; it points to `references/ma
 
 For English work, use `references/english.md` first; it contains the English-specific AI-tone markers, phrase risks, and genre lanes.
 
+For English biomedical manuscripts or English tables in medical papers, keep the work in the English lane and use `references/english.md`, especially the scientific/medical table-language guidance. Use `references/thesis-medical.md` only when the main prose is Chinese medical or formal Chinese scholarly writing.
+
 ## Core workflow
 
 ### 1. Lock the meaning
