@@ -14,6 +14,15 @@
 - 这个句子像正文、像图注、还是像项目汇报
 - 这个表述是在说结果，还是在说作者如何组织结果
 
+## 快速目录
+
+- `1. 先分清段落类型`：标题、方法、结果、讨论/结论的语域差异。
+- `2. 医学论文里常见的“顺但不稳”词`：证据链、闭环、框架、主线、支撑、路径等。
+- `2.1. 医学 / 生物论文里的英文表格也要查语域`：中文任务中夹带英文医学表格时的转交和保护规则。
+- `2.5. 不只是坏词，还要防五种“机器感”`：转场、句式、语法、词汇和作者立场。
+- `3-5`：不要机械替换、实用替换模式、按章节复查。
+- `6-8`：博士论文人工痕迹、最后自检、长文执行方式。
+
 ## 1. 先分清段落类型
 
 同一个词，在不同位置可接受程度不同。
@@ -328,6 +337,12 @@
 - `研究流程`
 - `下游任务应用`
 - `同一表征用于……`
+
+## 2.1. 医学 / 生物论文里的英文表格也要查语域
+
+本参考主要处理中文论文和中文医学写作。若完整文稿是英文医学/生物论文，尤其是英文表格、表头、biomarker 表格或 validation table，应转到 `de-ai-writing/references/english.md` 的 `Scientific and medical table language`。
+
+若中文论文或中文审稿任务中夹带英文表格，只做语域提醒：表头应像 evidence table、biomarker table 或 validation table；避免内部框架标签和项目管理式分类；不要机械替换，不要改变列数、统计量、单位、P 值、CI、HR/OR/RR、基因符号大小写、蛋白名和斜体/非斜体约定。`clinical utility`、`clinical actionability` 和 `predictive utility` 有证据门槛，早期关联或机制研究优先用 `clinical relevance`、`potential clinical implication` 或 `translational relevance`。
 
 ### `提醒`
 
