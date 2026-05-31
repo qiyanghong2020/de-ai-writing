@@ -176,6 +176,7 @@ High-risk signs:
 
 - column heads such as `Framework role`, `Evidence anchor`, `Decisive test`, or `Why it matters`
 - self-made category labels such as `low-X suppressive module`, `adaptive protein-state module`, `core immune-microenvironmental module`, or `boundary-setting only`
+- vague umbrella terms such as `evidence`, `interpretive boundary`, `signal`, `criteria`, `context`, `readout`, `claim`, or `framework` when the table or caption does not specify the biological layer, assay type, clinical setting, or validation endpoint
 - compressed clinical phrases such as `clinical direction`, `validation-stage`, `restoration selection`, `immune-safety checks`, or `spatial/cell phenotyping`
 - slash-heavy assay wording such as `IHC/MS`, `RNA/protein`, `methylation/expression`, or `prognosis/restoration` when the relation should be explicit
 - gene/protein mixing, for example using a gene symbol where the readout is a protein, aggregate, conformation, or subcellular localization
@@ -189,6 +190,17 @@ Preferred moves:
 - name the restoration target: `target-gene re-expression`, `target rescue`, `forced expression of the target gene/protein`, or `pathway activation/reactivation`
 - separate levels of measurement: gene symbols for DNA-level alteration, methylation, and gene/RNA expression; protein names, approved protein symbols, or marker names for protein expression, abundance, aggregation, conformation, proteoforms, PTMs, or localization
 - reduce slash compression with `and`, `with`, `or`, semicolons, or short noun phrases when the relation is unclear; keep compact slash forms when the table is space-constrained and the meaning is already defined
+- replace vague umbrella terms with the specific biological or clinical meaning in that context: assay support, functional perturbation data, clinical association, cellular source, tumor lineage, treatment setting, measured biological layer, protein-state measurement, immune-cell abundance, validation endpoint, or unresolved biological inference
+- in figure captions, name what is being measured or validated before naming the interpretation; for example, write `SNCA RNA expression and promoter methylation across tumor lineages` before `lineage-specific signal`
+- in table headers, prefer a short precise label plus a clarifying footnote over a broad label that only makes sense inside the author's private framework
+
+Semantic specificity checks:
+
+- `evidence` should say what kind of evidence: `assay support`, `functional support`, `clinical association`, `cohort-level association`, `single-cell support`, `spatial pathology support`, `perturbation data`, or `protein-state validation`
+- `signal` or `readout` should say what is measured: `RNA expression`, `promoter methylation`, `protein abundance`, `aggregate burden`, `subcellular localization`, `immune-cell abundance`, or `treatment-response association`
+- `interpretive boundary` should say what remains unresolved: `unresolved cellular source`, `unresolved protein state`, `unresolved causality`, `unresolved treatment interaction`, or `biological inference not yet established`
+- `criteria` should say what decision it supports: `validation endpoint`, `translational prerequisite`, `assay-performance requirement`, `clinical-utility requirement`, or `safety requirement`
+- `context` should say which context: `tumor lineage`, `cellular source`, `protein state`, `treatment setting`, `disease stage`, or `sample type`
 
 Useful replacements:
 
@@ -196,6 +208,13 @@ Useful replacements:
 | --- | --- |
 | `Framework role` | `Proposed interpretation` / `Biological interpretation` |
 | `Evidence anchor` | `Evidence base` / `Supporting evidence` |
+| `Evidence` | `Functional support`, `Assay support`, `Clinical association`, `Validation data`, or `Study-level data`, depending on the source |
+| `Supporting evidence` | `Key assay or functional support` when the evidence is experimental; `Clinical association` when it comes from patient cohorts |
+| `Interpretive boundary` | `Unresolved biology` / `Unresolved cellular source` / `Unresolved protein state` / `Biological inference not yet established` |
+| `Signal` / `Readout` | `Measured biological layer` / `Molecular measurement` / `Protein-state measurement` / `Immune-cell abundance` |
+| `Criteria` | `Validation endpoint` / `Translational prerequisite` / `Assay-performance requirement` |
+| `Context` | `Tumor lineage` / `Cellular source` / `Treatment setting` / `Sample type` |
+| `Claim` | `Biological inference` / `Biomarker use` / `Therapeutic rationale` / `Clinical conclusion` |
 | `Decisive test` | `Key validation test` / `Critical validation test` |
 | `Why it matters` | `Rationale` / `Translational rationale` |
 | `clinical direction` | `clinical relevance` / `clinical guidance`; use `clinical actionability` only when supported by decision-level evidence |
@@ -205,7 +224,7 @@ Useful replacements:
 | `immune-safety checks` | `immune safety assessments` |
 | `restoration selection` | `restoration-relevant biology` / `candidate restoration contexts` |
 
-Do not replace these mechanically. If a term is explicitly defined in the manuscript and is defensible for the field, keep it; otherwise prefer the wording a reviewer would expect in an evidence table. Preserve table structure, units, statistics, P values, confidence intervals, HR/OR/RR labels, gene-symbol capitalization, protein names, and italic/non-italic conventions unless the user explicitly asks to fix them.
+Do not replace these mechanically. If a term is explicitly defined in the manuscript and is defensible for the field, keep it; otherwise prefer the wording a reviewer would expect in an evidence table, figure legend, or biomarker-validation summary. Preserve the evidence strength: do not upgrade an association into mechanism, clinical utility, or therapeutic actionability. Preserve table structure, units, statistics, P values, confidence intervals, HR/OR/RR labels, gene-symbol capitalization, protein names, and italic/non-italic conventions unless the user explicitly asks to fix them.
 
 ### Business, product, and technical writing
 
