@@ -2,9 +2,9 @@
 
 # de-ai-writing
 
-**A bilingual academic humanizer for Chinese and English manuscripts.**
+**A bilingual research writing and editing tool for Chinese and English manuscripts.**
 
-**Preserve the evidence. Audit the whole argument.**
+**Clearer writing. Coherent arguments. Evidence preserved.**
 
 [简体中文](README.zh-CN.md) · [Examples](examples/README.md) · [Install](docs/installation.md) · [Privacy](docs/privacy.md) · [Terms](docs/terms.md) · [Issues](https://github.com/qiyanghong2020/de-ai-writing/issues)
 
@@ -16,11 +16,11 @@
 
 </div>
 
-`de-ai-writing` helps humanize AI writing without flattening the author's work. It edits Chinese writing, English manuscripts, medical writing, emails, applications, and technical documents while protecting facts, numbers, citations, comparison direction, evidence strength, uncertainty, and the writer's register.
+`de-ai-writing` improves clarity, flow, and structure in Chinese and English research writing. It edits manuscripts, medical writing, emails, applications, and technical documents while preserving facts, numbers, citations, comparison direction, evidence strength, uncertainty, and the author's voice.
 
 For an authorized full-paper review, it also runs a long-form structural audit: it maps cross-section thesis recurrence, identifies conceptual relabeling and decorative taxonomies, and tests whether manuscript length is proportionate to the evidence and analytical contribution.
 
-It is not a synonym spinner, an AI-authorship test, or a detector-bypass tool.
+Its focus is thoughtful editing that preserves the author's meaning and contribution.
 
 ## Quick start
 

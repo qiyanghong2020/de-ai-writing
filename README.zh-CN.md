@@ -2,9 +2,9 @@
 
 # de-ai-writing
 
-**面向中英文论文的双语学术 humanizer。**
+**面向中英文论文的双语科研写作与编辑工具。**
 
-**保留证据，审计完整论证，不只替换几个词。**
+**表达清晰，论证连贯，保留证据。**
 
 [English](README.md) · [完整案例](examples/README.md) · [安装](docs/installation.md) · [隐私](docs/privacy.md) · [使用条款](docs/terms.md) · [问题反馈](https://github.com/qiyanghong2020/de-ai-writing/issues)
 
@@ -20,7 +20,7 @@
 
 在用户明确授权全文处理时，它还可以审计长篇论文的结构：梳理中心命题在不同章节中的复现，识别概念换名和装饰性 taxonomy，并判断篇幅是否与证据和分析贡献相称。
 
-它不是同义词替换器、AI 作者身份鉴定工具或 detector 绕过工具。
+它专注于细致的文字与结构编辑，保留作者的原意和贡献。
 
 ## 快速安装
 
